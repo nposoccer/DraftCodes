@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>障がい者のためのサッカークラブ Pigeon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+	
+<!-- ▼ マークアップのルール ▼ -->
+<!-- ① Block + Element ⇒ "__（アンダースコア×2）" でつなげる [例："main__inner"] -->
+<!-- ② Element + Modifier ⇒ -"（ハイフン）" でつなげる [例："list-active"] -->
+<!-- ③ その他熟語 ⇒ 後にくる単語の頭文字を大文字にしてつなげる [例："mainVisual"] -->
+<!-- ④ 省略：テキスト⇒txt/タイトル⇒ttl/画像⇒img -->
+	
+<body id="top">
+	
+<header id="header">
+	<!-- 共通header -->
+	<div class="navWrapper">
+		<div class="navWrapper__logo"><a href="home.html"><img src="images/index_logo_001.png" alt="障がい者のためのサッカークラブ Pigeon"/></a></div>
+		<nav class="globalNav">
+			<div class="globalNav__btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul class="globalNav__menu">
+				<li><a href="about.html">どんな団体？</a></li>
+				<li><a href="activity.html">教室で何をする？</a></li>
+				<li class="current">見学・体験する</li>
+				<li><a href="friend.html">仲間になる</a></li>
+			</ul>
+			<div class="snsWrapper">
+				<ul class="snsWrapper__btn">
+					<li class="snsBtn__tw"><a href="DUMMY"></a></li>
+					<li class="snsBtn__fb"><a href="DUMMY"></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</header>
+<main id="experience">
+	<div class="topImage">
+		<p class="topImage__txt">テキストが入ります</p>
+		<div class="topImage__img"><img src="images/index_mv_004.jpg" alt=""/></div>
+	</div><!-- /topImage -->
+	
+	<div id="mainContent">
+		<section class="commonSection">
+			<div class="commonInner sectionContent">
+				<h2>見学・体験する</h2>
+				<p>下記フォームでは、クラブの体験・見学の申込みやご質問が可能です。各項目にご入力後、ページ最下部の「送信する」ボタンをクリックしてください。</p>
+				
+				<div class="formWrapper">
+					<div class="address">
+						<p class="form__title">ご連絡先</p>
+						<table class="form">
+							<tr>
+							  <th class="form__label">氏名</th>
+							  <td>
+								  <label for="name">姓</label>
+								  <input maxlength="20" name="name" type="text" size="18" value="">
+								  <label for="name2">名</label>
+								  <input maxlength="20" name="name2" type="text" size="18" value="">
+							  </td>
+							</tr>
+							<tr>
+								<th class="form__label">メールアドレス</th>
+								<td>
+									<input type="text" size="10" name="zip" id="zip" value="例：pigeon@gamil.com" maxlength="8" autocomplete="off" onfocus="">
+									※半角英数字
+								</td>
+							</tr>
+						</table>
+					</div><!-- /address -->
+
+					<div class="contact">
+						<p class="form__title">お問い合わせ内容</p>
+						<table class="form">
+							<tr class="row1">
+							  <th class="form__label">種別1</th>
+							  <td>
+								  <ul class="form__checkList">
+									  <li>
+										  <input type="checkbox" name="select" id="select1" />
+										  <label for="select1">クラブをお探しの保護者の方</label>
+									  </li>
+									  <li>
+										  <input type="checkbox" name="select" id="select2" />
+										  <label for="select2">ボランティア・支援をご検討の方、その他ご見学の方</label>
+									  </li>
+									  <li>
+										  <input type="checkbox" name="select" id="select3" />
+										  <label for="select3">NPOの情報交換・協働をご検討の方</label>
+									  </li>
+								  </ul>
+							  </td>
+							</tr> 
+							<tr class="row2">
+								<th class="form__label">種別2</th>
+								<td>
+									<ul class="form__checkList">
+										<li>
+											<input type="checkbox" name="request" id="request" />
+											<label for="request1">質問したい</label>
+										</li>
+										<li>
+											<input type="checkbox" name="request" id="request2" />
+											<label for="request2"> 見学したい</label>
+										</li>
+										<li>
+											<input type="checkbox" name="request" id="request3" />
+											<label for="request3">体験したい</label>
+										</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</div><!-- /contact -->
+					<p>※全ての項目を入力してください</p>
+					<p class="transmissionBtn"><a href="">送信する</a></p>
+				
+					
+				</div><!-- /formWrapper -->
+				
+			</div>
+		</section>
+	</div>
+</main><!-- /main -->
+	
+<footer id="footer">
+	<!-- 共通footer -->
+	<div class="commonFoot">
+		<div class="commonInner">
+			<div class="commonFoot__btnWrapper">
+				<p class="questionBtn"><a href="{$root}experience.html">質問する</a></p>
+				<div class="snsWrapper">
+					<ul class="snsWrapper__btn">
+						<li class="snsBtn__tw"><a href="DUMMY"></a></li>
+						<li class="snsBtn__fb"><a href="DUMMY"></a></li>
+					</ul>
+				</div>
+			</div>
+			<p>※Pigeonは、子供やご両親のプライバシーと意思を尊重し、許可なく個人が特定される写真などは使用しません。</p>
+		</div>
+	</div><!-- /commonFoot -->
+	<div class="copyRight">
+		<div class="pageTop-up"><a href="#top">トップへ</a></div>
+		<div class="commonInner">
+			<div class="copyRight__logo"><img src="images/index_logo_001.png" alt="logo"/></div>
+			<p><small>Copyright © 2019 pigeon Inc. All Rights Reserved.</small></p>
+		</div>
+	</div>
+</footer><!-- /footer -->
+	
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

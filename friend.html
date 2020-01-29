@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>障がい者のためのサッカークラブ Pigeon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+	
+<!-- ▼ マークアップのルール ▼ -->
+<!-- ① Block + Element ⇒ "__（アンダースコア×2）" でつなげる [例："main__inner"] -->
+<!-- ② Element + Modifier ⇒ -"（ハイフン）" でつなげる [例："list-active"] -->
+<!-- ③ その他熟語 ⇒ 後にくる単語の頭文字を大文字にしてつなげる [例："mainVisual"] -->
+<!-- ④ 省略：テキスト⇒txt/タイトル⇒ttl/画像⇒img -->
+	
+<body id="top">
+	
+<header id="header">
+	<!-- 共通header -->
+	<div class="navWrapper">
+		<div class="navWrapper__logo"><a href="home.html"><img src="images/index_logo_001.png" alt="障がい者のためのサッカークラブ Pigeon"/></a></div>
+		<nav class="globalNav">
+			<div class="globalNav__btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul class="globalNav__menu">
+				<li><a href="about.html">どんな団体？</a></li>
+				<li><a href="activity.html">教室で何をする？</a></li>
+				<li><a href="experience.html">見学・体験する</a></li>
+				<li class="current">仲間になる</li>
+			</ul>
+			<div class="snsWrapper">
+				<ul class="snsWrapper__btn">
+					<li class="snsBtn__tw"><a href="DUMMY"></a></li>
+					<li class="snsBtn__fb"><a href="DUMMY"></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</header>
+<main id="friend">
+	<div class="topImage">
+		<p class="topImage__txt">テキストが入ります</p>
+		<div class="topImage__img"><img src="images/index_mv_005.jpg" alt=""/></div>
+	</div><!-- /topImage -->
+	
+	<div id="mainContent">
+		<section class="commonSection">
+			<div class="commonInner sectionContent">
+				<h2>仲間になる</h2>
+				<p>障がいを持った子どもたちが抱える課題。サッカーというチームスポーツを通して、一緒に解決していきませんか？</p>
+				<ul class="tab">
+					<li class="tab__label select">子供たちのコーチになる</li>
+					<li class="tab__label">運営メンバーになる</li>
+					<li class="tab__label">NPOの活動に寄付する</li>
+				</ul>
+				<!--タブを切り替えて表示するコンテンツ-->
+				<ul class="tabContent">
+					<li class="tabContent__box">
+						<h3>子供たちの<br class="br-sp">コーチになる</h3>
+						Content-A
+					</li>
+					<li class="tabContent__box">
+						<h3>運営メンバーに<br class="br-sp">なる</h3>
+						Content-B
+					</li>
+					<li class="tabContent__box">
+						<h3>NPOの活動に<br class="br-sp">寄付する</h3>
+						Content-C
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+</main><!-- /main -->
+	
+<footer id="footer">
+	<!-- 共通footer -->
+	<div class="commonFoot">
+		<div class="commonInner">
+			<div class="commonFoot__btnWrapper">
+				<p class="questionBtn"><a href="{$root}experience.html">質問する</a></p>
+				<div class="snsWrapper">
+					<ul class="snsWrapper__btn">
+						<li class="snsBtn__tw"><a href="DUMMY"></a></li>
+						<li class="snsBtn__fb"><a href="DUMMY"></a></li>
+					</ul>
+				</div>
+			</div>
+			<p>※Pigeonは、子供やご両親のプライバシーと意思を尊重し、許可なく個人が特定される写真などは使用しません。</p>
+		</div>
+	</div><!-- /commonFoot -->
+	<div class="copyRight">
+		<div class="pageTop-up"><a href="#top">トップへ</a></div>
+		<div class="commonInner">
+			<div class="copyRight__logo"><img src="images/index_logo_001.png" alt="logo"/></div>
+			<p><small>Copyright © 2019 pigeon Inc. All Rights Reserved.</small></p>
+		</div>
+	</div>
+</footer><!-- /footer -->
+	
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
